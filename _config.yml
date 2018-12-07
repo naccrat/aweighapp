@@ -10,10 +10,10 @@ permalink:      pretty
 
 # Server
 source:         "site"
-destination:    
+destination:    ./_gh_pages
 host:           0.0.0.0
 port:           9001
-baseurl:        "gifted-brattain-760941.netlify.com"
+baseurl:        ""
 url:            "gifted-brattain-760941.netlify.com"
 encoding:       UTF-8
 exclude:
@@ -31,6 +31,21 @@ twitter:
 authors:            "Tony Naccarato"
 social_image_path:  
 social_logo_path:   
+
+# Custom variables
+current_version:      4.1.3
+current_ruby_version: 4.1.3
+docs_version:         4.1
+repo:                 "https://github.com/twbs/bootstrap"
+slack:                "https://bootstrap-slack.herokuapp.com"
+blog:                 "https://blog.getbootstrap.com"
+expo:                 "https://expo.getbootstrap.com"
+jobs:                 "https://jobs.getbootstrap.com"
+themes:               "https://themes.getbootstrap.com"
+
+download:
+  source:           "https://github.com/twbs/bootstrap/archive/v4.1.3.zip"
+  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.1.3/bootstrap-4.1.3-dist.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes

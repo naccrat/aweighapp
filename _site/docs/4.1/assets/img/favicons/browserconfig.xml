@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="gifted-brattain-760941.netlify.com/docs//assets/img/favicons/mstile-150x150.png"/>
+            <square150x150logo src="/docs//assets/img/favicons/mstile-150x150.png"/>
             <TileColor>#563d7c</TileColor>
         </tile>
     </msapplication>
