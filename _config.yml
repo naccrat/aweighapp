@@ -10,7 +10,7 @@ permalink:      pretty
 
 # Server
 source:         "site"
-destination:    ./
+destination:    
 host:           0.0.0.0
 port:           9001
 baseurl:        "gifted-brattain-760941.netlify.com"
