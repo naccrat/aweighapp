@@ -1,11 +1,12 @@
 ---
 title: Holiday Gift Tags
-date: 2018-12-03 23:28:30 +0000
-layout: post
+date: 2018-12-17 07:00:00 +0000
+layout: Post
 preview: "/uploads/gift-tags-present.png"
 tags:
 - Gift tags
 cost: "$4.00–$7.00"
+excerpt: 'This is the excerpt. '
 
 ---
 Custom Watercolor Holiday Gift Tags
@@ -18,7 +19,3 @@ $7.00 for a set of 12
 Each photo represents a set of tags. Please indicate what set you would like.
 
 [To place an order send me your information here](https://artbymegannacc.com/contact/).
-
-![](/uploads/tags option 1 8.58.27 AM.jpg)
-
-![](/uploads/tags option 2 8.58.27 AM.jpg)
