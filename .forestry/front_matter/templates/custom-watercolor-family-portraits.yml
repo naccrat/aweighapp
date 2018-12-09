@@ -23,6 +23,9 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: file
+  name: preview
+  label: Preview image
 - name: excerpt
   label: Excerpt
   type: text
@@ -33,8 +36,5 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-- type: file
-  name: preview
-  label: Preview image
 pages:
 - _posts/2018-12-03-a-custom-watercolor-family-portrait-for-your-one-of-a-kind-family.md
