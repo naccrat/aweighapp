@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Megan Naccarato</title>
-    <description>Watercolor art by Megan Naccarato
+    <title>Story Home</title>
+    <description>Share travel stories with those you miss back home.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Dec 2018 22:33:42 -0700</pubDate>
-    <lastBuildDate>Fri, 07 Dec 2018 22:33:42 -0700</lastBuildDate>
+    <pubDate>Sat, 08 Dec 2018 19:50:55 -0700</pubDate>
+    <lastBuildDate>Sat, 08 Dec 2018 19:50:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
