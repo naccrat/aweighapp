@@ -1,11 +1,12 @@
 ---
-title: Custom Watercolor Family Portraits
-date: 2018-12-03 18:25:45 +0000
-layout: post
-preview: "/uploads/family-3-custom.png"
+title: Chicago
+date: 2018-12-17 18:25:45 +0000
+layout: Post
+preview: ''
 tags:
-- Family portraits
+- Chicago
 cost: "$30.00"
+excerpt: Going to Chicago
 
 ---
 Custom watercolor family portrait.
