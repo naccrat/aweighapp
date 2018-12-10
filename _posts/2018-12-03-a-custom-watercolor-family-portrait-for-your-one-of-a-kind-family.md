@@ -1,7 +1,7 @@
 ---
 title: Chicago
 date: 2018-12-17 07:00:00 +0000
-layout: Post
+layout: post
 preview: "/uploads/family-portrait.png"
 tags:
 - Chicago
