@@ -11,9 +11,9 @@
                     <div class="card-text mb-auto">{{ post.excerpt }}</div>
                     <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
                 </div>
-                <img class="card-img-right flex-auto d-none d-lg-block" data-src="{{ post.preview }}" alt="Card image cap">
+                <img class="card-img-right flex-auto d-none d-lg-block" src="{{ post.preview }}">
             </div>
         
-            {% cycle 'end row' : '', '', '</div>' %}
-            {% endfor %}
-            {% cycle 'end row' : '', '</div>', '</div>' %}
+        {% cycle 'end row' : '', '', '</div>' %}
+    {% endfor %}
+{% cycle 'end row' : '', '</div>', '</div>' %}
