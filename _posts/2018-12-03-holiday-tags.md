@@ -1,7 +1,7 @@
 ---
 title: Holiday Gift Tags
 date: 2018-12-17 07:00:00 +0000
-layout: Post
+layout: post
 preview: "/uploads/gift-tags-present.png"
 tags:
 - Gift tags
