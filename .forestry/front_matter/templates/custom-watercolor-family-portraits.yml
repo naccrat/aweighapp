@@ -3,16 +3,6 @@ label: Post
 hide_body: false
 is_partial: false
 fields:
-- type: select
-  name: layout
-  config:
-    source:
-      type: simple
-      section: pages
-    options:
-    - Post
-    - Page
-  label: Layout
 - name: title
   label: Title
   type: text
