@@ -1,4 +1,7 @@
 /* stylelint-disable selector-list-comma-newline-after */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .blog-header {
     line-height: 1;
@@ -110,6 +113,10 @@
   .blog-post-title {
     margin-bottom: .25rem;
     font-size: 2.5rem;
+  }
+  .blog-post-subtite {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-style: italic;
   }
   .blog-post-author {
     margin-bottom: 8px;
