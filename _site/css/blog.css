@@ -124,8 +124,8 @@ body {
     margin-bottom: 1rem;
   }
   .blog-post-author-avatar img {
-    max-width: 80px;
-    height: 80px;
+    max-width: 64px;
+    height: 64px;
   }
 
   .blog-post-author {
