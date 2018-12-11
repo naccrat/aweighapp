@@ -109,17 +109,19 @@ body {
     /*position: absolute;
     bottom: 24px;
     left: 24px;*/
+    text-align: center;
   }
   .blog-post-title {
     margin-bottom: .25rem;
     font-size: 2.5rem;
   }
-  .blog-post-subtite {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  .blog-post-subtitle {
     font-style: italic;
+    margin-bottom: 1.25rem;
+    color: rgba(0, 0, 0, .65);
   }
   .blog-post-author {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .blog-post-author a {
     text-transform: uppercase;
@@ -153,6 +155,9 @@ body {
   .blog-post figure { 
     height: 150px;
   }
+}
+.blog-post-content {
+  margin-top: 3rem;
 }
   /*
    * Footer
