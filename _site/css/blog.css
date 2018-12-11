@@ -135,6 +135,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
+    letter-spacing: .05rem;
     color: rgb(0, 0, 0)
   }
   .blog-post-author a:hover {
