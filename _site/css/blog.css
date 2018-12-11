@@ -120,6 +120,24 @@ body {
     margin-bottom: 1.25rem;
     color: rgba(0, 0, 0, .65);
   }
+  .blog-post-author-avatar {
+    max-width: 80px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .blog-post-author-avatar img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 150%; 
+    margin: 0 0 0 -20%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+  }
   .blog-post-author {
     margin-bottom: 4px;
   }
@@ -146,10 +164,13 @@ body {
     overflow: hidden; /*hide bounds of image */
     margin: 0 0 16px 0; /*reset margin of figure tag*/
     height: 400px;
+    background: rgba(0, 0, 0, 1)
  }
  .blog-post figure img {
     display: block; /*remove inline-block spaces*/
     width: 100%; /*make image streatch*/
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
  }
  @media (max-width: 480px) {
   .blog-post figure { 
