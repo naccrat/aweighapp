@@ -100,15 +100,31 @@
    */
   .blog-post {
     margin-bottom: 4rem;
+   /* position: relative;*/
+  }
+  .blog-post-meta {
+    /*position: absolute;
+    bottom: 24px;
+    left: 24px;*/
   }
   .blog-post-title {
     margin-bottom: .25rem;
     font-size: 2.5rem;
   }
-  .blog-post-meta {
+  .blog-post-data {
     margin-bottom: 1.25rem;
     color: #999;
   }
+  .blog-post figure {
+    width: 100%; /*container-width*/
+    overflow: hidden; /*hide bounds of image */
+    margin: 0 0 1rem 0; /*reset margin of figure tag*/
+    height: 500px; 
+ }
+ .blog-post figure img {
+    display: block; /*remove inline-block spaces*/
+    width: 100%; /*make image streatch*/
+ }
   
   /*
    * Footer
