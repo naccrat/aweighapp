@@ -7,7 +7,7 @@
                 <h3 class="mb-0">
                     <a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h3>
-                <div class="mb-1 text-muted">{{ post.date }}</div>
+                <div class="mb-1 text-muted"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></div>
                 <p class="card-text mb-auto">{{ post.excerpt }}</p>
                 <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
             </div>
@@ -16,3 +16,5 @@
     </div>
     {% endfor %}
 </div>
+
+
