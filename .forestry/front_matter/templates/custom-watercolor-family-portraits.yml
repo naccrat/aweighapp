@@ -6,6 +6,8 @@ fields:
 - type: text
   name: layout
   label: Layout
+  config:
+    required: false
 - name: title
   label: Title
   type: text
@@ -31,7 +33,13 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: select
+  name: author
+  config:
+    source:
+      type: documents
+  label: Author
 pages:
 - _posts/2018-12-03-a-custom-watercolor-family-portrait-for-your-one-of-a-kind-family.md
-- _posts/2018-12-10-chicago.md
 - _posts/2018-12-10-utah-loud-logo.md
+- _posts/2018-12-10-chicago.md
