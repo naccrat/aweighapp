@@ -37,7 +37,11 @@ fields:
   name: author
   config:
     source:
-      type: documents
+      type: simple
+      file: authors.md
+      path: tags
+    options:
+    - Tony Naccarato
   label: Author
 pages:
 - _posts/2018-12-03-a-custom-watercolor-family-portrait-for-your-one-of-a-kind-family.md
