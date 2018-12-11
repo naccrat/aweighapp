@@ -10,4 +10,4 @@ dribbble_username:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
