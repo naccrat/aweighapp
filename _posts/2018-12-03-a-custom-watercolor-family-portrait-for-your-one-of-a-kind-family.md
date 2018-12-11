@@ -6,6 +6,8 @@ preview: "/uploads/family-3-custom.png"
 tags:
 - Family portraits
 cost: "$30.00"
+excerpt: ''
+author: Tony Naccarato
 
 ---
 Custom watercolor family portrait.
