@@ -111,8 +111,25 @@
     margin-bottom: .25rem;
     font-size: 2.5rem;
   }
-  .blog-post-data {
-    margin-bottom: 1.25rem;
+  .blog-post-author {
+    margin-bottom: 8px;
+  }
+  .blog-post-author a {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+  }
+  .blog-post-author a:hover {
+    color: rgba(0, 0, 0, .5)
+  }
+  .blog-post-author span {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-style: italic;
+  }
+  .blog-post-date {
+    text-transform: uppercase;
+    font-size: .9rem;
     color: #999;
   }
   .blog-post figure {
