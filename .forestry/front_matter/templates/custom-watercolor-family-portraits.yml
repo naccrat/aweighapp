@@ -13,6 +13,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: ''
 - name: date
   label: Date
   type: datetime
@@ -23,11 +28,6 @@ fields:
 - type: file
   name: preview
   label: Preview image
-- name: excerpt
-  label: Excerpt
-  type: text
-  hidden: false
-  default: ''
 - name: tags
   label: Tags
   type: tag_list
