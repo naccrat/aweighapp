@@ -121,13 +121,13 @@ body {
     color: rgba(0, 0, 0, .65);
   }
   .blog-post-author-avatar {
+    margin-bottom: 1rem;
+  }
+  .blog-post-author-avatar img {
     max-width: 80px;
     height: 80px;
   }
-  .blog-post-author-avatar img{
-    margin: 0 auto;
-    width: 150%;  
-  }
+
   .blog-post-author {
     margin-bottom: 4px;
   }
