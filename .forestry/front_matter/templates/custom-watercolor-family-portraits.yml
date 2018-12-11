@@ -47,5 +47,4 @@ fields:
   name: author_avatar
   label: Author Avatar
 pages:
-- _posts/chicago-illinois.md
 - _posts/2018-12-10-chicago.md
