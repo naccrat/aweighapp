@@ -10,8 +10,10 @@ layout: default
           </figure>
           <div class="blog-post-meta">
             <h2 class="blog-post-title">{{ page.title }}</h2>
-            <h5 class="blog-post-subtitle"> {{ page.subtitle }}</h5>
-            
+            {% if page.subtitle %}
+              <h5 class="blog-post-subtitle"> {{ page.subtitle }}</h5>
+            {% endif %}
+            <p class="blog-post-tag">{{ page.location }}</p>
             <div class="blog-post-author-avatar">
                 <img src="{{ page.author_avatar }}" class="rounded-circle" />
               </div>
@@ -33,11 +35,12 @@ layout: default
               <div class="col-8">
                 <h5 class="post-title">{{ post.title }}</h5>
                 {% if post.subtitle %}
-                <h6 class="post-subtitle">{{ post.subtitle }}</h6>
+                  <h6 class="post-subtitle">{{ post.subtitle }}</h6>
                 {% endif %}
                 <p class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
 
                 {{ post.content }}
+
                 <hr>
               </div> <!-- /.col-8 -->
             </div> <!-- /.row -->

@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden; /*hide bounds of image */
   margin: 0 0 16px 0; /*reset margin of figure tag*/
   height: 300px;
-  background: rgba(0, 0, 0, 1)
+  background: rgba(0, 0, 0, 1);  
 }
 .blog-post figure img {
   display: block; /*remove inline-block spaces*/
