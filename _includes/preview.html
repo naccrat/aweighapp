@@ -5,12 +5,13 @@
             <img class="" src="{{ post.preview }}">
             <div class="card-body">
                 <strong class="d-inline-block mb-2 blog-post-tag">{{ post.tags }}</strong>
-                <h3 class="">
+                <h2 class="">
                     <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h3>
+                </h2>
                 <h5 class="blog-post-subtitle"> {{ post.subtitle }}</h5>
                 <div class="mb-3 blog-post-date"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></div>
                 <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">Read the story</a></p>
             </div>
             
         </div>
@@ -18,4 +19,6 @@
     {% endfor %}
 </div>
 
-
+{% for cat in site.categories %}
+    <li>{{ cat[0] }}</li>
+{% endfor %}

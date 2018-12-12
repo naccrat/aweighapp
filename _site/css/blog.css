@@ -86,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .6)
 }
+.card-body a:hover {
+  color: rgba(255, 255, 255, .7);
+  text-decoration: none;
+}
 .card img {
   display: block;
   width: 100%;
@@ -94,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 .card-body .blog-post-subtitle {
-  color: white;
+  color: rgba(255, 255, 255, .85)
 }
 
 
@@ -184,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; /*container-width*/
   overflow: hidden; /*hide bounds of image */
   margin: 0 0 16px 0; /*reset margin of figure tag*/
-  height: 400px;
+  height: 300px;
   background: rgba(0, 0, 0, 1)
 }
 .blog-post figure img {
@@ -194,9 +198,9 @@ h1, h2, h3, h4, h5, h6 {
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 @media (max-width: 480px) {
-.blog-post figure { 
-  height: 150px;
-}
+  .blog-post figure { 
+    height: 150px;
+  }
 }
 .blog-post-content {
 margin-top: 3rem;
@@ -209,7 +213,6 @@ color: rgba(0, 0, 0, .5p);
 }
 
 .blog-post-image {
-  width: 100%;
 }
 
 
