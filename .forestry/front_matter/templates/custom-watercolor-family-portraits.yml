@@ -8,6 +8,12 @@ fields:
   label: Layout
   config:
     required: false
+- type: select
+  name: category
+  config:
+    source:
+      type: documents
+  label: Category
 - name: title
   label: Title
   type: text
@@ -46,5 +52,3 @@ fields:
 - type: file
   name: author_avatar
   label: Author Avatar
-pages:
-- _posts/2018-12-10-chicago.md
