@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Dec 2018 18:47:20 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Dec 2018 18:47:20 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 18:47:38 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 18:47:38 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -23,7 +23,7 @@
 Curabitur blandit tempus porttitor. &lt;strong&gt;Nullam quis risus eget urna mollis&lt;/strong&gt; ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/uploads/IMG_0700.JPG&quot; alt=&quot;&quot; /&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+&lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 &lt;h2&gt;Heading&lt;/h2&gt;
 &lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 &lt;h3&gt;Sub-heading&lt;/h3&gt;
