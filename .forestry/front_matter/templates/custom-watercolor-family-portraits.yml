@@ -8,11 +8,8 @@ fields:
   label: Layout
   config:
     required: false
-- type: select
+- type: tag_list
   name: category
-  config:
-    source:
-      type: documents
   label: Category
 - name: title
   label: Title
