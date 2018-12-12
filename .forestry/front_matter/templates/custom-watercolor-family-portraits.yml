@@ -49,3 +49,5 @@ fields:
 - type: file
   name: author_avatar
   label: Author Avatar
+pages:
+- _posts/The Midwest Clinic/2018-12-10-chicago.md
