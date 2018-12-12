@@ -1,6 +1,6 @@
 <div class="row">
-    {% for post in site.posts %}
-    <div class="col-md-12">
+    {% for post in site.posts reversed %}
+    <div class="col-md-6">
         <div class="card mb-4 h-350">
             <img class="" src="{{ post.preview }}">
             <div class="card-body">
@@ -12,13 +12,28 @@
                 <div class="mb-3 blog-post-date"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></div>
                 <p class="card-text mb-auto">{{ post.excerpt }}</p>
                 <p><a href="{{ post.url | prepend: site.baseurl }}">Read the story</a></p>
-            </div>
-            
+            </div> 
         </div>
     </div>
     {% endfor %}
 </div>
 
-{% for cat in site.categories %}
-    <li>{{ cat[0] }}</li>
-{% endfor %}
+
+<div class="row">
+    {% for category in site.categories %}
+    <div class="col-md-12">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div class="card mb-4 h-350">
+            <img class="" src="{{ post.preview }}">
+            <div class="card-body">
+                <h2>
+                    <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ category_name }}</a>
+                </h2>
+                {% for post in site.categories[category_name] reversed %}
+                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+                {% endfor %}
+            </div> 
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% for the-midwest-clinic in site.the-midwest-clinic %}
+{{ the-midwest-clinic.title }}
+{% endfor %}
+
+
+{% for post in site.categories[category_name] %}
+<h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+{% endfor %}
