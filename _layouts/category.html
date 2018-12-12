@@ -1,13 +1,50 @@
 ---
 layout: default
 ---
-<h1>Simple Category Pages with vanilla Jekyll</h1>
+<div role="main" class="container">
+    <div class="row">
+      <div class="blog-main">
+        <div class="blog-post">
+          <figure>
+            <img class="" src="{{ page.preview }}"/>
+          </figure>
+          <div class="blog-post-meta">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+            <h5 class="blog-post-subtitle"> {{ page.subtitle }}</h5>
+            
+            <div class="blog-post-author-avatar">
+                <img src="{{ page.author_avatar }}" class="rounded-circle" />
+              </div>
+            <p class="blog-post-author"><span>By</span> <a href="#">{{ page.author }}</a></p>
+          </div> <!-- /.blog-post-meta-->
+          
+          <div>
+            {% unless page.content == '' %}
+              <div>{{ page.content }}</div>
+            {% endunless %}
+        
+            {% unless site.categories.[page.category] | size > 0 %}
+              <p>Check back soon for updates to this story.</p>
+            {% endunless %}
 
-{% unless page.content == '' %}
-  <p>{{ page.content }}</p>
-{% endunless %}
+            {% for post in site.categories.[page.category] %}
+            
+            <div class="row justify-content-md-center">
+              <div class="col-8">
+                <h5 class="post-title">{{ post.title }}</h5>
+                {% if post.subtitle %}
+                <h6 class="post-subtitle">{{ post.subtitle }}</h6>
+                {% endif %}
+                <p class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
 
-{% for post in site.categories.[page.category] %}
-  <h2><a href=""></a></h2>
-  <p></p>
-{% endfor %}
+                {{ post.content }}
+                <hr>
+              </div> <!-- /.col-8 -->
+            </div> <!-- /.row -->
+            {% endfor %}
+          </div>
+        </div><!-- /.blog-post -->  
+        
+      </div> <!-- /.col -->
+    </div> <!-- /.row -->
+  </div> 
