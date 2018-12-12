@@ -2,7 +2,7 @@
 title: Stories
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Share travel stories with those you miss back home.
+  Stories is a place to document your experiences and share them with those that matter most. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gifted-brattain-760941.netlify.com/" # the base hostname & protocol for your site
 twitter_username: 
