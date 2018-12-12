@@ -1,7 +1,7 @@
 ---
-label: The Midwest Clinic
-hide_body: 
-is_partial: 
+label: Story / Category Template
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -33,3 +33,6 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: text
+  name: location
+  label: Location
