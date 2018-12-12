@@ -207,6 +207,12 @@ letter-spacing: .05rem;
 font-size: .9rem;
 color: rgba(0, 0, 0, .5p);
 }
+
+.blog-post-image {
+  width: 100%;
+}
+
+
 /*
   * Footer
   */
