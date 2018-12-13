@@ -170,8 +170,6 @@ Story page styles
 .blog-post {
   margin-bottom: 4rem;
 }
-.blog-post-meta {
-}
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
@@ -234,9 +232,6 @@ text-transform: uppercase;
 letter-spacing: .05rem;
 font-size: .9rem;
 color: rgba(0, 0, 0, .5p);
-}
-
-.blog-post-image {
 }
 
 
