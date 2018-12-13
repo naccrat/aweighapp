@@ -8,14 +8,6 @@ url: "https://gifted-brattain-760941.netlify.com/" # the base hostname & protoco
 twitter_username: 
 dribbble_username: 
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:slug
-
 # Build settings
 markdown: kramdown
 permalink: none
