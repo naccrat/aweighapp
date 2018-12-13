@@ -1,53 +1,51 @@
 ---
 layout: default
 ---
+<div class="page-image">
+  <img class="" src="{{ page.preview }}"/>
+</div>
 <div role="main" class="container">
-    <div class="row">
-      <div class="blog-main">
-        <div class="blog-post">
-          <figure>
-            <img class="" src="{{ page.preview }}"/>
-          </figure>
-          <div class="blog-post-meta">
-            <h2 class="blog-post-title">{{ page.title }}</h2>
-            {% if page.subtitle %}
-              <h5 class="blog-post-subtitle"> {{ page.subtitle }}</h5>
-            {% endif %}
-            <p class="blog-post-tag">{{ page.location }}</p>
-            <div class="blog-post-author-avatar">
-                <img src="{{ page.author_avatar }}" class="rounded-circle" />
-              </div>
-            <p class="blog-post-author"><span>By</span> <a href="#">{{ page.author }}</a></p>
-          </div> <!-- /.blog-post-meta-->
-          
-          <div>
-            {% unless page.content == '' %}
-              <div>{{ page.content }}</div>
-            {% endunless %}
-        
-            {% unless site.categories.[page.category] | size > 0 %}
-              <p>Check back soon for updates to this story.</p>
-            {% endunless %}
-
-            {% for post in site.categories.[page.category] %}
-            
-            <div class="row justify-content-md-center">
-              <div class="col-8">
-                <h5 class="post-title">{{ post.title }}</h5>
-                {% if post.subtitle %}
-                  <h6 class="post-subtitle">{{ post.subtitle }}</h6>
-                {% endif %}
-                <p class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-
-                {{ post.content }}
-
-                <hr>
-              </div> <!-- /.col-8 -->
-            </div> <!-- /.row -->
-            {% endfor %}
+    
+  <div class="row justify-content-md-center">
+    <div class="col-8">
+      
+      <div class="story-header text-center mb-5">
+        <h2 class="story-title mb-1">{{ page.title }}
+        {% if page.subtitle %}
+          <span class="story-subtitle font-italic"> {{ page.subtitle }}</span>
+        {% endif %}
+        </h2>
+        <p class="story-location">{{ page.location }}</p>
+        <div class="story-author-img">
+            <img src="{{ page.author_avatar }}" class="rounded-circle" />
           </div>
-        </div><!-- /.blog-post -->  
+        <p class="story-author mb-5"><span>By</span> {{ page.author }}</p>
+        <hr>
+      </div> <!-- /.story-header -->
+
+        {% unless page.content == '' %}
+          <div>{{ page.content }}</div>
+        {% endunless %}
+    
+        {% unless site.categories.[page.category] | size > 0 %}
+          <p>Check back soon for updates to this story.</p>
+        {% endunless %}
+
+        {% for post in site.categories.[page.category] %}
         
-      </div> <!-- /.col -->
-    </div> <!-- /.row -->
-  </div> 
+        <h5 class="post-title">{{ post.title }}</h5>
+        {% if post.subtitle %}
+          <h6 class="post-subtitle">{{ post.subtitle }}</h6>
+        {% endif %}
+        <p class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+
+        {{ post.content }}
+
+        <hr class="mt-5 mb-5">
+        {% endfor %}
+      </div>
+    </div><!-- /.blog-post -->  
+      
+    </div> <!-- /.col -->
+  </div> <!-- /.row -->
+</div> 

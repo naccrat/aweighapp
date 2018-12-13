@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stories</title>
-    <description>Share travel stories with those you miss back home.
+    <description>Stories is a place to document your experiences and share them with those that matter most. 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Dec 2018 16:52:50 -0700</pubDate>
-    <lastBuildDate>Wed, 12 Dec 2018 16:52:50 -0700</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 21:32:24 -0700</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 21:32:24 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Wed, 12 Dec 2018 13:38:21 -0700</pubDate>
-        <link>http://localhost:4000/midwest-clinic/2018/12/12/day-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/midwest-clinic/2018/12/12/day-2/</guid>
+        <link>http://localhost:4000/midwest-clinic/day-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/midwest-clinic/day-2.html</guid>
         
         <category>The Midwest Clinic</category>
         
@@ -34,8 +34,8 @@
 &lt;p&gt;&lt;img src=&quot;/uploads/IMG_0700.JPG&quot; alt=&quot;band&quot; class=&quot;blog-post-image w-100&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 10:51:04 -0700</pubDate>
-        <link>http://localhost:4000/midwest-clinic/2018/12/11/chicago/</link>
-        <guid isPermaLink="true">http://localhost:4000/midwest-clinic/2018/12/11/chicago/</guid>
+        <link>http://localhost:4000/midwest-clinic/chicago.html</link>
+        <guid isPermaLink="true">http://localhost:4000/midwest-clinic/chicago.html</guid>
         
         <category>The Midwest Clinic</category>
         
