@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Dec 2018 15:59:05 -0700</pubDate>
-    <lastBuildDate>Thu, 13 Dec 2018 15:59:05 -0700</lastBuildDate>
+    <pubDate>Thu, 13 Dec 2018 16:55:40 -0700</pubDate>
+    <lastBuildDate>Thu, 13 Dec 2018 16:55:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;The Midwest Clinic is held at McCormick Place West in Chicago every year in December.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 13:38:21 -0700</pubDate>
-        <link>http://localhost:4000/day-2</link>
-        <guid isPermaLink="true">http://localhost:4000/day-2</guid>
+        <link>http://localhost:4000/the%20midwest%20clinic/the%20long%20road%20home/day-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/the%20midwest%20clinic/the%20long%20road%20home/day-2.html</guid>
         
         
         <category>The Midwest Clinic</category>
@@ -36,8 +36,8 @@
 &lt;p&gt;&lt;img src=&quot;/uploads/IMG_0700.JPG&quot; alt=&quot;band&quot; class=&quot;blog-post-image w-100&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 10:51:04 -0700</pubDate>
-        <link>http://localhost:4000/chicago</link>
-        <guid isPermaLink="true">http://localhost:4000/chicago</guid>
+        <link>http://localhost:4000/the%20midwest%20clinic/chicago.html</link>
+        <guid isPermaLink="true">http://localhost:4000/the%20midwest%20clinic/chicago.html</guid>
         
         
         <category>The Midwest Clinic</category>

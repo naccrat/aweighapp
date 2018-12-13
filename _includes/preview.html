@@ -1,22 +1,20 @@
 <div class="row">
-    {% for post in site.posts reversed %}
-    <div class="col-md-6">
+    <div class="col-md-12">
         <div class="card mb-4 h-350">
-            <img class="" src="{{ post.preview }}">
-            <div class="card-body">
-                {% for category in site.categories %}
-                <a class="d-inline-block mb-2 blog-post-tag" href="/{{ category | first }}">{{ category | first }}</a>   
-                {% endfor %}
-                <h2 class="">
-                    <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-                <h5 class="blog-post-subtitle"> {{ post.subtitle }}</h5>
-                <div class="mb-3 blog-post-date"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></div>
-                <p class="card-text mb-auto">{{ post.excerpt | truncate: 150 }}</p>
-                <p><a href="{{ post.url | prepend: site.baseurl }}">Read the story</a></p>
+            <img class="" src="{{ site.data.stories.story.image }}">
+            <div class="card-body p-5">
+                <h1 class="mb-3">
+                    <a href="{{site.data.stories.story.link}}">{{site.data.stories.story.title}}</a>
+                </h1>  
+                
+                {% if site.data.stories.story.subtitle %}
+                <h4 class="card-subtitle font-italic mb-3"> {{ site.data.stories.story.subtitle }}</h4>
+                {% endif %}
+                <div class="card-date mb-5">
+                    <time datetime="{{site.data.stories.story.dates}}">{{site.data.stories.story.dates}}</time>
+                </div>
+                <p><a href="{{site.data.stories.story.link}}">Follow the story</a></p>
             </div> 
         </div>
     </div>
-    {% endfor %}
 </div>
-
