@@ -2,7 +2,8 @@
 title: Bon Voyage Concert
 date: 2018-12-15 19:00:13 -0700
 layout: post
-category: []
+category:
+- The Midwest Clinic
 subtitle: Let the journey begin
 preview: "/uploads/IMG_0700.JPG"
 tags: []
