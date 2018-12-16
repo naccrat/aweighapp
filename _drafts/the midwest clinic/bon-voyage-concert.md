@@ -10,7 +10,7 @@ author: Tony Naccarato
 author_avatar: "/uploads/Naccarato-Tony.jpeg"
 
 ---
-Tonight was the Bon Voyage concert for the Farmington Jr. High Jazz Band. One Monday we will leave for the Midwest Clinic which is held at McCormick Place West in Chicago every year in December.
+Tonight was the Bon Voyage concert for the Farmington Jr. High Jazz Band. On Monday we will leave for the Midwest Clinic which is held at McCormick Place West in Chicago every year in December.
 
 ![](/uploads/0BEAF312-48F8-48D7-9ABF-3B0B5FA40E70.jpeg)
 
