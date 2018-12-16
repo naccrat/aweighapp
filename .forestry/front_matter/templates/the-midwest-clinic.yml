@@ -36,5 +36,3 @@ fields:
 - type: text
   name: location
   label: Location
-pages:
-- midwest-clinic/index.html
