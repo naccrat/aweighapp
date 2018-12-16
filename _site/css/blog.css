@@ -227,6 +227,9 @@ Story page styles
 .blog-post-content {
 margin-top: 3rem;
 }
+.blog-post-content img {
+  width: 100%;
+}
 .blog-post-tag {
 text-transform: uppercase;
 letter-spacing: .05rem;
