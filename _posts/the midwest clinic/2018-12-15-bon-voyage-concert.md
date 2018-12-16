@@ -1,6 +1,6 @@
 ---
 title: Bon Voyage Concert
-date: 2018-12-15 19:00:13 -0700
+date: 2018-12-16 02:00:13 +0000
 layout: post
 category:
 - The Midwest Clinic
@@ -13,9 +13,9 @@ author_avatar: "/uploads/Naccarato-Tony.jpeg"
 ---
 Tonight was the Bon Voyage concert for the Farmington Jr. High Jazz Band. On Monday we will leave for the Midwest Clinic which is held at McCormick Place West in Chicago every year in December.
 
-This is an amazing group of performers and the sound and quality of the pieces is amazing. This has been a long journey to get here. They auditioned last year, got accepted, and started practicing through the summer and early mornings and late afternoons. It has been pretty intense but they all committed and now it is time for them to reap the rewards. 
+This is an amazing group of performers and the sound and quality of the pieces is amazing. This has been a long journey to get here. They auditioned last year, got accepted, and started practicing through the summer and early mornings and late afternoons. It has been pretty intense but they all committed and now it is time for them to reap the rewards.
 
-![](/uploads/IMG_0706.JPG)
+![Farmington Jr. High Jazz Band](/uploads/IMG_0706.JPG "Farmington Jr. High Jazz Band")
 
 ##### About the Midwest Clinic
 
