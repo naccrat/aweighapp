@@ -17,6 +17,6 @@ This is an amazing group of performers and the sound and quality of the pieces i
 
 ![](/uploads/IMG_0706.JPG)
 
-#### About the Midwest Clinic
+##### About the Midwest Clinic
 
 For over 70 years, we have showcased the finest performances by ensembles from around the globe, presentations by the foremost experts in music education, and the latest music industry trends for all age and experience levels. The Midwest Clinic is the largest instrumental music education conference in the world.
