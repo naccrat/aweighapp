@@ -12,8 +12,6 @@ author_avatar: "/uploads/Naccarato-Tony.jpeg"
 ---
 Tonight was the Bon Voyage concert for the Farmington Jr. High Jazz Band. On Monday we will leave for the Midwest Clinic which is held at McCormick Place West in Chicago every year in December.
 
-![](/uploads/0BEAF312-48F8-48D7-9ABF-3B0B5FA40E70.jpeg)
-
 For over 70 years, we have showcased the finest performances by ensembles from around the globe, presentations by the foremost experts in music education, and the latest music industry trends for all age and experience levels. The Midwest Clinic is the largest instrumental music education conference in the world.
 
 The Midwest Clinic is held at McCormick Place West in Chicago every year in December.
