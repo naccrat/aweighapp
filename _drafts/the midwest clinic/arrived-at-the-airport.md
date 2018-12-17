@@ -6,7 +6,7 @@ category: []
 subtitle: ''
 preview: ''
 tags: []
-author: ''
-author_avatar: ''
+author: Tony Naccarato
+author_avatar: "/uploads/Naccarato-Tony.jpeg"
 
 ---
