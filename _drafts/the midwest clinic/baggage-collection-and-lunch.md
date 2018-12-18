@@ -1,10 +1,10 @@
 ---
 title: Baggage Collection and Lunch
-date: 2018-12-17 21:33:05 -0700
+date: 2018-12-17 11:30:05 -0700
 layout: Post
 category:
 - The Midwest Clinic
-subtitle: ''
+subtitle: Chicago Midway International Airport
 preview: ''
 tags: []
 author: ''
