@@ -16,3 +16,5 @@ Myself and some of the other adults went to get all the bags off the carousel wh
 While I was helping Melissa stopped to get us lunch. She got a Chicago dog and I got a brawt. Neither we great but the Chicago dog was much better. 
 
 After all the kids and groups retuned we found our way to the bus and headed for the hotel. 
+
+![](/uploads/21C036C4-40E9-4ED1-BD0A-8DB56E47D390.jpeg)
