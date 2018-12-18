@@ -7,8 +7,8 @@ category:
 subtitle: Chicago Midway International Airport
 preview: ''
 tags: []
-author: ''
-author_avatar: ''
+author: Tony Naccarato
+author_avatar: "/uploads/Naccarato-Tony.jpeg"
 
 ---
 Myself and some of the other adults went to get all the bags off the carousel while the students got lunch. It was quite the production and I'm sure in was a pain for dinner to get by as the bags were all stacked Sunday the wall by the carousel. I think we got them all and no instruments were damaged. At least not that we know of yet.
