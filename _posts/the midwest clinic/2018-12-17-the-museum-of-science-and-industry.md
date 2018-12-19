@@ -8,7 +8,7 @@ date: 2018-12-17 23:30:00 -0700
 preview: ''
 tags: []
 author: Tony Naccarato
-author_avatar: ''
+author_avatar: "/uploads/Naccarato-Tony.jpeg"
 
 ---
 We had a couple of hours to spend at the museum of science and industry, which was very cool and you penalty needed a full day to experience everything. We were able to see the German U-505 that was captured during WWII. Thank you to the security guard that gave us so much info about the boat, that made the trip. 
