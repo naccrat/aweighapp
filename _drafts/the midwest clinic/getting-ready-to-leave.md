@@ -12,4 +12,4 @@ author_avatar: ''
 ---
 Waiting for the bus.
 
-![](/uploads/0CDC09F2-D038-45CC-B8B9-C6B717E22663.jpeg)
+![](/uploads/9E33E2D8-5FEC-43FC-8DB5-7A6F36E44F70.jpeg)
