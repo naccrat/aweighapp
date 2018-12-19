@@ -1,13 +1,14 @@
 ---
 layout: Post
-category: []
+category:
+- The Midwest Clinic
 title: Getting ready to leave
-subtitle: ''
+subtitle: At the hotel
 date: 2018-12-18 20:00:00 -0700
 preview: ''
 tags: []
 author: Tony Naccarato
-author_avatar: ''
+author_avatar: "/uploads/Naccarato-Tony.jpeg"
 
 ---
 Waiting for the bus.
