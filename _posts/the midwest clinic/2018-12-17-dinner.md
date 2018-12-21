@@ -1,0 +1,14 @@
+---
+layout: post
+category:
+- The Midwest Clinic
+title: Dinner
+subtitle: Bubba Gump Shrimp Co. Restaurant & Market
+date: 2018-12-17 18:00:00 -0700
+preview: ''
+tags: []
+author: ''
+author_avatar: ''
+
+---
+After exploring the pier we went over to Bubba Gump's for Dinner. It wasn't the best food but I realize it is hard to get a big group into a place so it was a good option. The kids seem to do fine and there was good conversation with the other adults.
