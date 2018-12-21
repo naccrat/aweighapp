@@ -3,7 +3,7 @@ layout: Post
 category:
 - The Midwest Clinic
 title: Deep Dish Pizza
-subtitle: 'Giordano's'
+subtitle: 'Giordanos'
 date: 2018-12-18 18:00:00 -0700
 preview: ''
 tags: []

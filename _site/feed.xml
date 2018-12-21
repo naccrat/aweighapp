@@ -6,20 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Dec 2018 16:09:09 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Dec 2018 16:09:09 -0700</lastBuildDate>
+    <pubDate>Fri, 21 Dec 2018 16:10:52 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Dec 2018 16:10:52 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
-    
-      <item>
-        <title></title>
-        <description>&lt;p&gt;You can’t come to Chicago and not stop for some famous deep dish pizza. We had dinner at giordano’s pizza and it was wonderful.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Dec 2018 16:09:09 -0700</pubDate>
-        <link>http://localhost:4000/2018-12-18-deep-dish-pizza.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-18-deep-dish-pizza.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>Blue Man Group</title>
@@ -99,6 +88,19 @@
         <pubDate>Tue, 18 Dec 2018 19:00:00 -0700</pubDate>
         <link>http://localhost:4000/the%20midwest%20clinic/willis-tower-sky-deck.html</link>
         <guid isPermaLink="true">http://localhost:4000/the%20midwest%20clinic/willis-tower-sky-deck.html</guid>
+        
+        
+        <category>The Midwest Clinic</category>
+        
+      </item>
+    
+      <item>
+        <title>Deep Dish Pizza</title>
+        <description>&lt;p&gt;You can’t come to Chicago and not stop for some famous deep dish pizza. We had dinner at giordano’s pizza and it was wonderful.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Dec 2018 18:00:00 -0700</pubDate>
+        <link>http://localhost:4000/the%20midwest%20clinic/deep-dish-pizza.html</link>
+        <guid isPermaLink="true">http://localhost:4000/the%20midwest%20clinic/deep-dish-pizza.html</guid>
         
         
         <category>The Midwest Clinic</category>
