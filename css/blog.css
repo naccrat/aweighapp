@@ -108,7 +108,7 @@ Story page styles
   text-transform: uppercase;
   letter-spacing: .05rem;
   font-size: .9rem;
-  color: rgba(0, 0, 0, .5p);
+  color: rgba(0, 0, 0, .6);
 }
 .story-author-img {
   margin-bottom: 1rem;
@@ -130,10 +130,23 @@ Story page styles
   text-transform: lowercase;
   color: rgba(0, 0, 0, .5);
 }
+
+.post-title {
+  letter-spacing: .02rem;
+}
 .post-title span {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-style: italic;
   color: rgba(0, 0, 0, .5);
+}
+.post-date {
+  text-transform: uppercase;
+  font-size: .9rem;
+  color: rgba(0, 0, 0, .6);
+}
+.post-subtitle {
+  font-style: italic;
+  color: rgba(0, 0, 0, .65);
 }
 
 
@@ -224,17 +237,15 @@ Story page styles
     height: 150px;
   }
 }
-.blog-post-content {
-margin-top: 3rem;
-}
+
 .blog-post-content img {
   width: 100%;
 }
 .blog-post-tag {
-text-transform: uppercase;
-letter-spacing: .05rem;
-font-size: .9rem;
-color: rgba(0, 0, 0, .5p);
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-size: .9rem;
+  color: rgba(0, 0, 0, .5p);
 }
 
 
