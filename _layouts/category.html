@@ -26,7 +26,7 @@ layout: default
       
       {% for post in site.categories.[page.category] %}
       
-        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <div class="post-date">{{ post.date | date_to_string: "%B %-d, %Y" }} <span>at</span> {{ post.date | date: "%I:%M %P" }}</div>
 
         <h5 class="post-title">{{ post.title }}</h5>
         {% if post.subtitle %}
