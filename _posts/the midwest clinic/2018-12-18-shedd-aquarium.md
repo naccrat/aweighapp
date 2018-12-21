@@ -3,7 +3,7 @@ layout: Post
 category:
 - The Midwest Clinic
 title: Shedd Aquarium
-subtitle: ''
+subtitle: '1200 S Lake Shore Dr, Chicago, IL 60605'
 date: 2018-12-18 09:00:00 -0700
 preview: ''
 tags: []
