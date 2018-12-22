@@ -49,3 +49,5 @@ fields:
 - type: file
   name: author_avatar
   label: Author Avatar
+pages:
+- _posts/the midwest clinic/Dec 18/2018-12-18-shedd-aquarium.md
