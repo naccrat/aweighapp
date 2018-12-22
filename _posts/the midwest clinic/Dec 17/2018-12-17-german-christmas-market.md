@@ -4,7 +4,7 @@ category:
 - The Midwest Clinic
 title: German Christmas Market
 subtitle: Christkindlmarket
-date: 2018-12-17 19:40:00 -0700
+date: 2018-12-18 02:40:00 +0000
 preview: ''
 tags: []
 author: ''
