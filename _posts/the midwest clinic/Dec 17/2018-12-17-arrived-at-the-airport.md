@@ -1,6 +1,6 @@
 ---
 title: Arrived at the airport
-date: 2018-12-17 06:59:11 -0700
+date: 2018-12-17 13:59:11 +0000
 layout: Post
 category:
 - The Midwest Clinic
