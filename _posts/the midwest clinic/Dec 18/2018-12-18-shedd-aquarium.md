@@ -1,10 +1,10 @@
 ---
-layout: Post
+layout: post
 category:
 - The Midwest Clinic
 title: Shedd Aquarium & Dolphin Show
-subtitle: 'Shedd Aquarium'
-date: 2018-12-18 09:00:00 -0700
+subtitle: Shedd Aquarium
+date: 2018-12-18 16:00:00 +0000
 preview: ''
 tags: []
 author: Tony Naccarato
