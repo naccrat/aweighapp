@@ -50,6 +50,7 @@ fields:
   name: author_avatar
   label: Author Avatar
 pages:
+- _posts/the midwest clinic/Dec 17/2018-12-17-dinner.md
 - _posts/the midwest clinic/Dec 18/2018-12-18-shedd-aquarium.md
 - _posts/the midwest clinic/Dec 15/2018-12-15-bon-voyage-concert.md
 - _posts/the midwest clinic/Dec 17/2018-12-17-arrived-at-the-airport.md
