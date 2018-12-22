@@ -4,7 +4,7 @@ category:
 - The Midwest Clinic
 title: Getting ready to leave
 subtitle: At the hotel
-date: 2018-12-18 08:00:00 -0700
+date: 2018-12-18 15:00:00 +0000
 preview: ''
 tags: []
 author: Tony Naccarato
