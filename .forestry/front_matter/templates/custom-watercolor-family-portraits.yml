@@ -36,19 +36,6 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-- type: select
-  name: author
-  config:
-    source:
-      type: simple
-      file: authors.md
-      path: tags
-    options:
-    - Tony Naccarato
-  label: Author
-- type: file
-  name: author_avatar
-  label: Author Avatar
 pages:
 - _posts/the midwest clinic/Dec 18/2018-12-18-getting-ready-to-leave.md
 - _posts/the midwest clinic/Dec 17/2018-12-17-the-museum-of-science-and-industry.md
