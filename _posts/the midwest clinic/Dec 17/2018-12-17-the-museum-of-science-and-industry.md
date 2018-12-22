@@ -4,7 +4,7 @@ category:
 - The Midwest Clinic
 title: The Museum of Science and Industry
 subtitle: ''
-date: 2018-12-18 11:30:00 -0700
+date: 2018-12-18 18:30:00 +0000
 preview: ''
 tags: []
 author: Tony Naccarato
