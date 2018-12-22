@@ -1,21 +1,18 @@
 <div class="row">
-    <div class="col-md-12">
+    {% for block in site.data.stories.story %}
+    <div class="col-md-6">
         <div class="card mb-4 h-350">
-            <img class="" src="{{ site.data.stories.story.image }}">
-            <div class="card-body p-5">
-                <h1 class="mb-3">
-                    <a href="{{site.data.stories.story.link}}">{{site.data.stories.story.title}}</a>
+            <img class="img-fluid" src="{{ block.image }}">
+            <div class="card-body pl-5">
+                <h1 class="">
+                    <a href="{{ block.link}}">{{ block.title }}</a>
                 </h1>  
-                
-                {% if site.data.stories.story.subtitle %}
-                <h4 class="card-subtitle font-italic mb-3"> {{ site.data.stories.story.subtitle }}</h4>
+                {% if block.subtitle %}
+                <h4 class="card-subtitle font-italic"> {{ block.subtitle }}</h4>
                 {% endif %}
-                <p>{{ site.data.stories.story.location }}</p>
-                <div class="card-date mb-5">
-                    <time datetime="{{site.data.stories.story.dates}}">{{site.data.stories.story.dates}}</time>
-                </div>
-                <p><a href="{{site.data.stories.story.link}}">Follow the story</a></p>
+                <time datetime="{{ block.dates }}">{{ block.dates }}</time>
             </div> 
         </div>
     </div>
+    {% endfor %}
 </div>
