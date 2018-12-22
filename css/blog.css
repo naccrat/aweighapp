@@ -72,7 +72,7 @@ body {
   }
   .card-body {
     position: absolute;
-    top: 20;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -109,8 +109,8 @@ body {
     transition: .3s ease-in-out;
   }
   .card:hover img {
-    -webkit-filter: grayscale(90%) blur(2px);
-    filter: grayscale(90%) blur(2px);
+    -webkit-filter: grayscale(80%) blur(2px);
+    filter: grayscale(80%) blur(2px);
   }
   
   /*
@@ -123,8 +123,16 @@ body {
   .story-location {
     text-transform: uppercase;
     letter-spacing: .05rem;
-    font-size: .9rem;
+    font-size: 1.1rem;
     color: rgba(0, 0, 0, .6);
+  }
+  .story-image {
+    position: relative;
+    overflow: hidden;
+  }
+  .story-image img {
+    position: relative;
+    display: block; 
   }
   .story-author-img {
     margin-bottom: 1rem;
@@ -164,7 +172,9 @@ body {
     color: rgba(0, 0, 0, .65);
   }
   
-  
+
+
+
   /*
     * Blog name and description
     */
@@ -234,19 +244,7 @@ body {
     font-size: .9rem;
     color: rgba(0, 0, 0, .6);
   }
-  .page-image {
-    width: 100%; /*container-width*/
-    overflow: hidden; /*hide bounds of image */
-    margin: 0 0 16px 0; /*reset margin of figure tag*/
-    height: 300px;
-    background: rgba(0, 0, 0, 1);  
-  }
-  .page-image img {
-    display: block; /*remove inline-block spaces*/
-    width: 100%; /*make image streatch*/
-    /*opacity: 0.5;
-    filter: alpha(opacity=50);*/ /* For IE8 and earlier */
-  }
+
   @media (max-width: 480px) {
     .blog-post figure { 
       height: 150px;
