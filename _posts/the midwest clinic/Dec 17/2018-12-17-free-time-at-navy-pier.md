@@ -4,7 +4,7 @@ category:
 - The Midwest Clinic
 title: 'Free Time at Navy Pier '
 subtitle: Navy Pier
-date: 2018-12-17 16:15:00 -0700
+date: 2018-12-17 23:15:00 +0000
 preview: ''
 tags: []
 author: ''
