@@ -4,7 +4,7 @@ date: 2018-12-16 02:00:13 +0000
 layout: post
 category:
 - The Midwest Clinic
-subtitle: Let the journey begin
+subtitle: Farmington High School
 preview: "/uploads/IMG_0700.JPG"
 tags: []
 author: Tony Naccarato
