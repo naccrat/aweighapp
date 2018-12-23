@@ -3,7 +3,7 @@ layout: Post
 category:
 - The Midwest Clinic
 title: Getting ready to leave
-subtitle: At the hotel
+subtitle: Embassy Suites Chicago Downtown Magnificent Mile
 date: 2018-12-18 15:00:00 +0000
 preview: ''
 tags: []
