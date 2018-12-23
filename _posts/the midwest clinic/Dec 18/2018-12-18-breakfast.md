@@ -3,7 +3,7 @@ layout: Post
 category:
 - The Midwest Clinic
 title: 'Breakfast '
-subtitle: Day 2
+subtitle: Embassy Suites Chicago Downtown Magnificent Mile
 date: 2018-12-18 14:00:00 +0000
 preview: ''
 tags: []
