@@ -2,8 +2,8 @@
 layout: Post
 category:
 - The Midwest Clinic
-title: The Museum of Science and Industry
-subtitle: ''
+title: Museum of Science and Industry
+subtitle: Museum of Science and Industry, Chicago
 date: 2018-12-18 18:30:00 +0000
 preview: ''
 tags: []
