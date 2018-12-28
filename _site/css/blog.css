@@ -252,7 +252,7 @@ body {
   }
   
   .blog-post-content img {
-    width: 50%;
+    width: 100%;
   }
   .blog-post-content img:first-child {
     padding: 0 16px 0 0;
