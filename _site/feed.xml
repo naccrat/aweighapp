@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Dec 2018 15:08:41 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Dec 2018 15:08:41 -0700</lastBuildDate>
+    <pubDate>Thu, 27 Dec 2018 19:58:13 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Dec 2018 19:58:13 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -65,7 +65,7 @@
     
       <item>
         <title>Pre-Performance Pep Talk</title>
-        <description>
+        <description>&lt;p&gt;Mr. Wolf gave a great pre-performance pep talk right before the kids went into the room to get ready. He told the kids that he was proud of them for the work they did to get to this point. He mentioned that most of the kids won’t remember what they played but they should remember the process to get here, working hard, being committed, and following through with commitments to reach a goal.&lt;/p&gt;
 </description>
         <pubDate>Wed, 19 Dec 2018 10:00:00 -0700</pubDate>
         <link>http://localhost:4000/the%20midwest%20clinic/pre-performance-pep-talk.html</link>

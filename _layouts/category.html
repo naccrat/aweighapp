@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- Story heading -->
 <div class="row">
   <!-- <div class="col-6">
     <div class="story-image">
@@ -22,15 +23,19 @@ layout: default
     </div> <!-- /.story-header -->  
   </div>
 </div>
+<!-- /Story heading -->
 <hr>
+<!-- Post enties -->
 <div class="row">
   <div class="col">
     {% for post in site.categories.[page.category] %}
-    <div class="post-date">{{ post.date | date_to_string: "%B %-d, %Y" }} <span>at</span> {{ post.date | date: "%I:%M %P" }}</div>
+    <div class="post-date mb-1">{{ post.date | date_to_string: "%B %-d, %Y" }} <span>at</span> {{ post.date | date: "%I:%M %P" }}</div>
 
-    <h5 class="post-title">{{ post.title }}</h5>
+    <!-- <h5 class="post-title">{{ post.title }}</h5> -->
     {% if post.subtitle %}
-      <p class="post-subtitle mb-4"><i class="fas fa-map-marker-alt"></i> {{ post.subtitle }}</p>
+      <p class="post-subtitle mb-3">
+        <!-- <i class="fas fa-map-marker-alt"></i> --> 
+        @ {{ post.subtitle }}</p> 
     {% endif %}
     <div class="blog-post-content">
     {{ post.content }}
@@ -39,3 +44,4 @@ layout: default
     {% endfor %}
   </div> <!-- /.col -->
 </div> <!-- /.row -->
+<!-- /Post enties -->
