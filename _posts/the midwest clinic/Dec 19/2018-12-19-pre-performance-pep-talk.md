@@ -11,3 +11,4 @@ author:
 author_avatar: 
 
 ---
+Mr. Wolf gave a great pre-performance pep talk right before the kids went into the room to get ready. He told the kids that he was proud of them for the work they did to get to this point. He mentioned that most of the kids won't remember what they played but they should remember the process to get here, working hard, being committed, and following through with commitments to reach a goal.
