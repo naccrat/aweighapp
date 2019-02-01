@@ -4,11 +4,13 @@
           <a class="blog-header-logo text-dark" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
         <div class="col-5 pt-1">
-        {% for item in site.data.settings.menu_settings.menu_items %}
-					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
-					</li>
-        {% endfor %}
+          <ul class="menu__list">
+          {% for item in site.data.settings.menu_settings.menu_items %}
+            <li class="menu__list__item">
+              <a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+          </ul>
         </div>
         <div class="col-4 d-flex justify-content-end align-items-center">
           <!-- <a class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">Sign up</a> -->
