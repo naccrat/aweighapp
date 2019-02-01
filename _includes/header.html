@@ -3,6 +3,11 @@
         <div class="col-4 pt-1">
           <a class="text-muted" href="{{ site.baseurl }}/">Home</a>
         </div>
+        {% for item in site.data.settings.menu_settings.menu_items %}
+					<li class="menu__list__item">
+						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+					</li>
+        {% endfor %}
         <div class="col-4 text-center">
           <a class="blog-header-logo text-dark" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
