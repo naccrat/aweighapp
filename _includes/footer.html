@@ -8,6 +8,7 @@
         <p>{{ site.description }}</p>
     </div>
     <div class="col-4">
+      <ul class="socials">
         {% for url in site.data.settings.social_settings %}
         {% if url[1] != '' %}
         <li class="socials__item">
@@ -17,6 +18,7 @@
         </li>
         {% endif %}
         {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
