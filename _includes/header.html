@@ -2,11 +2,11 @@
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-3 text-center">
           {% if site.data.settings.header_settings.logo_image %}
-          <a href="/" class="blog-header-logo text-dark header__logo">
+          <a href="/" class="header__logo">
             <img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
           </a>
           {% else %}
-          <a href="/" class="header__title">
+          <a href="/" class="blog-header-logo text-dark header__title">
             {{ site.data.settings.basic_settings.site_title }}
           </a>
           {% endif %}
