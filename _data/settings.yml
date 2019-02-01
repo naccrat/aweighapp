@@ -1,6 +1,7 @@
 basic_settings:
   site_title: Aweigh
   favicon_image: /images/favicon.png
+  site_tagline: A simple elegant travel journal to help you tell your story.
 
 header_settings:
   logo_image: 
