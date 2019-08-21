@@ -55,7 +55,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -200,7 +200,7 @@
     rgba(22, 22, 22, 0.9) 75%,
     rgba(22, 22, 22, 0.8) 100%
   );
-  background: url("img/background-image-about.jpg") no-repeat fixed center;
+  background: url("../img/background-image-about.jpg") no-repeat fixed center;
 }
 
 .about-section p {
