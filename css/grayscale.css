@@ -319,7 +319,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: {{ site.data.settings.font_settings.title_font }};
   letter-spacing: 0.0625em;
   font-size: 1.2em;
 }
