@@ -267,7 +267,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: {{ site.data.settings.font_settings.title_font }};
+  font-family: "Lato", sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -285,7 +285,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: {{ site.data.settings.font_settings.title_font }};
+  font-family: "EB Garamond", serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -319,7 +319,7 @@
 }
 
 body {
-  font-family: {{ site.data.settings.font_settings.title_font }};
+  font-family: "Lato", sans-serif;
   letter-spacing: 0.0625em;
   font-size: 1.2em;
 }
@@ -328,7 +328,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: {{ site.data.settings.font_settings.title_font }};
+  font-family: "EB Garamond", serif;
 }
 
 a {
