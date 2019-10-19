@@ -1,8 +1,8 @@
 ---
 title: Aweigh
 feature_text: |
-  ## Capture adventures as you experience them.
-feature_image: "https://picsum.photos/1300/400?image=989"
+  # Aweigh. Capture adventures as you experience them.
+# feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A travel journal app designed with the traveler in mind to easily capture and share your story."
 ---
 
