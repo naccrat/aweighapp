@@ -5,8 +5,8 @@
  * The original style.css is now called airspace.css
  * 
  */
-
-@import url(//https://fonts.googleapis.com/css?family=Muli&display=swap);
+/* prettier-ignore */
+@import url(//https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap);
 /* var text-decoration */
 /*--
 	Common Css
@@ -29,11 +29,11 @@ h2 {
 }
 h3 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
 }
 p {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 ul {
   padding: 0;
@@ -49,16 +49,7 @@ a:active {
 .section-title {
   margin-bottom: 70px;
 }
-.section-title h2 {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: 600;
-}
-.section-title p {
-  font-family: "Muli", sans-serif;
-  font-style: italic;
-  color: #666;
-}
+
 /*--
 	Header Start
 --*/
@@ -123,7 +114,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: "Muli", sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 48px;
   padding-bottom: 45px;
 }
