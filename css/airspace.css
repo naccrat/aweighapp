@@ -24,15 +24,15 @@ h6 {
   font-family: "Muli", sans-serif;
 }
 h2 {
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
 }
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5em;
 }
 ul {
@@ -110,12 +110,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #fff;
 }
 #slider .block {
-  color: #e3e3e4;
 }
 #slider .block h1 {
   font-family: "Muli", sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 60px;
   padding-bottom: 45px;
 }
 #slider .block p {
