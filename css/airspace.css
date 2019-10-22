@@ -23,6 +23,10 @@ h5,
 h6 {
   font-family: "Muli", sans-serif;
 }
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
 h2 {
   font-size: 48px;
   font-weight: 400;
@@ -56,6 +60,7 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 header .navbar {
   margin-bottom: 0px;
@@ -112,14 +117,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block {
 }
 #slider .block h1 {
-  font-family: "Muli", sans-serif;
-  font-weight: 800;
-  font-size: 60px;
   padding-bottom: 45px;
 }
 #slider .block p {
   font-size: 24px;
-  font-weight: 400;
 }
 /*--
 	wrapper Start
