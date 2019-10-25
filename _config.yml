@@ -1,35 +1,18 @@
-exclude:
-  - "/vendor/"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE.md"
-  - "*.gemspec"
-
-keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
-
 # Site settings
 title: Aweigh
-subtitle: "Capture adventures as you experience them"
-url: "https://aweighapp.com/" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+email:
+author: tab tech
+description: Aweigh. A travel journal app designed with the traveler in mind to easily capture and share your story.
+url: https://aweighapp.com
 
 # Build settings
-markdown: kramdown
+permalink: :title/
+sass:
+  sass_dir: css
 
-# Google analytics
-ga_tracking_id: "UA-133651612-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+# Social icons
+show_social_icons: true
+twitter_username:
+facebook_username: aweighapp
+instagram_username:
+# Typography

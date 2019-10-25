@@ -1,0 +1,41 @@
+.navbar {
+  border-bottom: 1px solid $gray-200;
+  opacity: 0.95;
+  background: $white;
+
+  .nav-item {
+  }
+}
+
+.nav-link {
+  color: $gray-900 !important;
+
+  &:hover {
+    color: $links !important;
+  }
+}
+
+#banner {
+  position: relative;
+  background: $gray-600 url("/img/banner.png") no-repeat center center;
+  min-height: 400px;
+}
+
+.social-links {
+  a {
+    text-decoration: none;
+    padding-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+}
+
+#coming_soon {
+  padding: 12px 16px;
+}
